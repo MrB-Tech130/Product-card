@@ -27,7 +27,7 @@
     width: 350px;
     height: 590px;
     background-color: whitesmoke;
-    margin: 50px 50px 200px 50px;
+    margin: 50px 50px 100px 50px;
     /* padding: 50px  50px 10px 75px ; */
     border: 1px solid gray;
     border-radius: 0 0 16px 0;
@@ -38,7 +38,7 @@
     width: 350px;
     height: 590px;
     background-color: whitesmoke;
-    margin: 50px 50px 200px 10px;
+    margin: 50px 50px 100px 10px;
     /* padding: 50px  50px 10px 75px ; */
     border: 1px solid gray;
     border-radius: 0 0 16px 16px;
@@ -50,7 +50,7 @@
     width: 350px;
     height: auto;
     background-color: whitesmoke;
-    margin: 50px 50px 200px 10px;
+    margin: 50px 50px 100px 10px;
     /* padding: 50px  50px 10px 75px ; */
     border: 1px solid gray;
     box-sizing: border-box;

@@ -25,39 +25,42 @@
 
 .container {
     width: 350px;
-    height: 521px;
+    height: 599px;
     background-color: whitesmoke;
     margin: 50px 50px 200px 50px;
     /* padding: 50px  50px 10px 75px ; */
     border: 1px solid gray;
+    border-radius: 0 0 16px 0;
 
 }
 
 .containerTwo {
     width: 350px;
-    height: 524px;
+    height: 600px;
     background-color: whitesmoke;
     margin: 50px 50px 200px 10px;
     /* padding: 50px  50px 10px 75px ; */
     border: 1px solid gray;
+    border-radius: 0 0 16px 16px;
 
 
 }
 
 .containerTree {
     width: 350px;
-    height: 510px;
+    height: auto;
     background-color: whitesmoke;
     margin: 50px 50px 200px 10px;
     /* padding: 50px  50px 10px 75px ; */
     border: 1px solid gray;
-
-
+    box-sizing: border-box;
+    padding: 0;
+    border-radius: 0 0 0 16px;
 }
 
 .btnOne {
-    width: 350px;
-    margin: auto 0;
+    width: 100%;
+    margin:0;
     padding: 16px 0;
     text-align: center;
     font-family: inherit;
@@ -68,16 +71,13 @@
     font-size: 20px;
     white-space: nowrap;
     border-radius: 0 0 16px 0;
-    border: 2px solid ;
-    display: block;
-
-
+    border: 2px solid chocolate;
 }
 
 .btnTwo {
-    box-sizing: border-box;
     width: 350px;
     margin: 0;
+    height: auto;
     padding: 16px 0;
     text-align: center;
     font-family: inherit;
@@ -88,16 +88,15 @@
     font-size: 20px;
     white-space: nowrap;
     border-radius: 0 0 16px 16px;
-    border: 2px solid;
-    display: block;
+    border: 2px solid chocolate;
 }
 
 
 .btnTree {
     box-sizing: border-box;
-    border: 2px solid;
-    width: 350px;
-    margin: auto 0 0;
+    border: 2px solid chocolate;
+    width: 100%;
+    margin: 0;
     padding: 16px 0;
     text-align: center;
     font-family: inherit;
@@ -108,7 +107,6 @@
     font-size: 20px;
     white-space: nowrap;
     border-radius: 0 0 0 16px;
-    display: block;
 }
 
 .btnOne:hover,
@@ -195,9 +193,9 @@ h1 {
 }
 
 .card {
-    font-size: 25px;
+    font-size: 30px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 10px;
+    padding: 0px 20px;
 }
 
 .company {
